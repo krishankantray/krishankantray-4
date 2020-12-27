@@ -1,0 +1,226 @@
+.blog-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .blog-list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        width: 100%;
+    }
+}
+
+.blogs-list-title {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.link {
+    text-decoration: none;
+    color:rgb(0, 217, 255) ;
+}
+.blog-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+.paper-container {
+    width: 70%;
+    min-height: auto;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+@media only screen and (max-width: 1200px) {
+    .paper-container {
+        width: 97%;
+        min-height: auto;
+        padding: 2px;
+    }
+}
+.back-button {
+    margin-right: auto;
+    margin-left: 50px;
+    position: fixed;
+    left: 0%;
+}
+@media only screen and (max-width: 1200px) {
+    .back-button {
+        display: none;
+    }
+}
+.title {
+    display: flex;    
+    font-size: 28px ;
+    font-weight: bolder;
+}
+.subtitle {
+    display: flex;
+    font-size: 16px;
+    line-height: 25px;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.image {
+    height: 550px ;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 1200px) {
+    .image {
+        height: 200px ;
+        width: 100%;
+        display: block;
+    }
+}
+.image-container {
+    max-height: 550px;
+    max-width:100%;
+    overflow: hidden;
+    align-items: center;
+}
+.blog-body {
+    margin-top: 30px;
+}
+.para-separator {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.text-1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-2 {
+    font-size: 15px;
+}
+.list-container {
+    display: flex;
+    margin: 5px;
+}
+.list-container li {
+    list-style: outside disc;
+    margin-left: 2em;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: rgba(4, 104, 122, 1);
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: rgb(72, 92, 112);;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.code-container {
+    display: flex;
+    width: 100%;
+}
+.highlighted-text {
+    background-color: #2727258c;
+    background-position: 50% 50%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(163, 163, 163) ;
+  }
+ .video-container {
+     display: flex;
+     justify-content: center;
+     margin: 30px;
+ }
+
+ .button-link-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .button-link {
+    min-width: 50px;
+    min-height: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #4a4a4d;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+.button-link::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(90px + 10px);
+    min-height: calc(35px + 10px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button-link:hover, .button-link:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  .button-link:hover::before, button-link:focus::before {
+    opacity: 1;
+  }
+  
