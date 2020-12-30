@@ -1,0 +1,177 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    padding: 1%;
+}
+.resume-card-left {
+    min-width: 27vw;
+    min-height: 90vh;
+    margin-right: 15px;
+}
+.resume-card-right {
+    min-width: 68vw;
+    min-height: 90vh;
+}
+.avatar-img {
+    display: flex;
+    object-fit: cover;
+    border-radius:50%;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+.particle-js {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+}
+
+.resume-text-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: antiquewhite;
+}
+
+.resume-text-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.resume-text-3 {
+    display: flex;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.resume-text-4 {
+    display: flex;
+    font-size: 20px;
+    vertical-align: middle;
+    color: antiquewhite;
+}
+
+.resume-separator {
+    margin-top: 7%;
+    margin-bottom: 5%  ;
+    display: flex;
+    flex-direction: column;
+    text-align: bottom;
+}
+.resume-link {
+    text-decoration: none;
+    color:#BFC9CA ;
+}
+.resume-link:hover {
+    text-decoration: underline;
+    color: #F8F9F9;
+}
+.resume-awards-ul-container {
+    display: flex;
+    margin: 1%;
+}
+.resume-awards-ul-container ul {
+    list-style-type: none;
+}
+.resume-awards-ul-container li {
+    list-style-position:inside;
+    border: 1px solid#707B7C;
+    border-radius: 16px;
+    padding: 2.5%;
+    margin-bottom: 1%;
+}
+
+.resume-awards-ul-container hr {
+    display: flex;
+	height: 2px;
+	margin: 3px;
+	left: 50%;
+	border: none;
+    border-bottom: 0.5px solid;
+    border-color: #707B7C;
+}
+.progress-bar-custom-50 {
+	margin: auto;
+	width: 170px;
+	height: 14px;
+	background: -webkit-gradient(linear, left, right, color-stop(50%, #52ba65), color-stop(0%, #ececec));
+	background: -webkit-linear-gradient(left, #52ba65 50%, #ececec 0%);
+	background: -moz-linear-gradient(left, #52ba65 50%, #ececec 0%);
+	background: -o-linear-gradient(left, #52ba65 50%, #ececec 0%);
+	background: linear-gradient(to right, #52ba65 50%, #ececec 0%);
+	border-radius: 20px;
+}
+.progress-bar-custom-75 {
+	margin: auto;
+	width: 170px;
+	height: 14px;
+	background: -webkit-gradient(linear, left, right, color-stop(75%, #52ba65), color-stop(0%, #ececec));
+	background: -webkit-linear-gradient(left, #52ba65 75%, #ececec 0%);
+	background: -moz-linear-gradient(left, #52ba65 75%, #ececec 0%);
+	background: -o-linear-gradient(left, #52ba65 75%, #ececec 0%);
+	background: linear-gradient(to right, #52ba65 75%, #ececec 0%);
+	border-radius: 20px;
+}
+.progress-bar-custom-80 {
+	margin: auto;
+	width: 170px;
+	height: 14px;
+	background: -webkit-gradient(linear, left, right, color-stop(80%, #52ba65), color-stop(0%, #ececec));
+	background: -webkit-linear-gradient(left, #52ba65 80%, #ececec 0%);
+	background: -moz-linear-gradient(left, #52ba65 80%, #ececec 0%);
+	background: -o-linear-gradient(left, #52ba65 80%, #ececec 0%);
+	background: linear-gradient(to right, #52ba65 80%, #ececec 0%);
+	border-radius: 20px;
+}
+.progress-bar-custom-90 {
+	margin: auto;
+	width: 170px;
+	height: 14px;
+	background: -webkit-gradient(linear, left, right, color-stop(90%, #52ba65), color-stop(0%, #ececec));
+	background: -webkit-linear-gradient(left, #52ba65 90%, #ececec 0%);
+	background: -moz-linear-gradient(left, #52ba65 90%, #ececec 0%);
+	background: -o-linear-gradient(left, #52ba65 90%, #ececec 0%);
+	background: linear-gradient(to right, #52ba65 90%, #ececec 0%);
+	border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .resume-text-1 {
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        color: antiquewhite;
+    }
+    .resume-text-2 {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+    .resume-card-left {
+        min-width: 28vw;
+        min-height: 90vh;
+        margin-right: 5px;
+        padding: 0%;
+    }
+    .resume-card-right {
+        min-width: 60vw;
+        min-height: 90vh;
+        display: none;
+    }
+    .resume-text-3 {
+        display: flex;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+}

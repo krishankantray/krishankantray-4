@@ -14,6 +14,9 @@ export default function Post(props) {
             <div className="image-container">
                 <img src={data.image} alt="Heading Image" className="image"/>
             </div>
+            <div className="button-link-wrap">
+                <button className="button-link" onClick={()=>window.open('https://assignment-bs.netlify.app/', '_blank')}>Visit App</button>
+            </div>
             <div class="blog-body">
                 <p className="text-1">
                     Problem Desciption

@@ -9,6 +9,7 @@ import normal from './theme/normal';
 import './App.css' ;
 import Blog from './blog/index';
 import FullBlog from './blog/FullBlogs' ;
+import Resume from './resume/index' ;
 
 function App() {
   const siteTheme = useSelector(state => state.switchTheme);
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route exact path='/read-blog'>
               <FullBlog />
+            </Route>
+            <Route exact path='/resume'>
+              <Resume />
             </Route>
           </Switch>
           <Navbar/>

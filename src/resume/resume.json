@@ -1,0 +1,146 @@
+{
+    "basics": {
+      "name": "Krishankant Ray",
+      "label": "Full Stack Developer",
+      "image": "https://raw.githubusercontent.com/krishankantray/temp/master/avatar_resume.jpg",
+      "summary": "I’m a self-motivated and hardworking experienced fullstack developer seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.",
+      "website": "https://krishankantray.com",
+      "email": "krishankant_rai@rediffmail.com",
+      "location": {
+        "city": "Gurgaon",
+        "countryCode": "IN"
+      },
+      "profiles": [
+        {
+          "username": "@krishankantray",
+          "url": "https://twitter.com/krishankantray",
+          "network": "twitter"
+        },
+        {
+          "url": "https://github.com/krishankantray",
+          "username": "/krishankantray",
+          "network": "github"
+        }
+      ]
+    },
+    "education": [
+      {
+        "endDate": "2019-04-30",
+        "startDate": "2015-07-01",
+        "area": "Computer Science and Engineering",
+        "studyType": "Bachelor of Technology",
+        "institution": "Galgotias University"
+      }
+    ],
+    "references": [
+    ],
+    "skills": [
+      {
+        "keywords": [
+          "HTML / JSX",
+          "CSS / Styled Components",
+          "Javascript",
+          "React"
+          
+        ],
+        "level": "",
+        "name": "Frontend"
+      },
+      {
+        "keywords": ["Node", "SQL Server", "Postgres", "Express", "Serverless"],
+        "level": "",
+        "name": "Backend"
+      },
+      {
+        "keywords": ["New Relic", "Postman", "Git", "Jira", "Kibana", "Elastic Search", "RabbitMQ", "Splunk"],
+        "level": "",
+        "name": "Tools"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Codevita is a coding competition organised by TCS",
+        "awarder": "Got Rank 230 in TCS Codevita"
+      },
+      {
+        "awarder": "Six stars badge in Hackerrank problem solving",
+        "title": "HackerRank is a competitive programming platform where I has solved more than 300+ problems"
+      },
+      {
+        "awarder": "Cleared Hackwith Infy coding contest till final round",
+        "title": "Hack with infy is a coding competition organised by Infosys"
+      },
+      {
+        "awarder": "Got bronze medal at Week of code 37 and Hour Rank 29 contest at Hackerrank.",
+        "title": "Week of code and Hour Rank are contests orgainsed by HackerRank "
+      },
+      {
+        "awarder": "Around 3k view on my blog where I share problem solutions..",
+        "title": "I have a blogging site : https://krishankantray.blogspot.com/ "
+      },
+      {
+        "awarder": "Secured top three positions in school since class 1.",
+        "title": "😉"
+      }
+    ],
+    "work": [
+       {
+        "summary": "MERN (MySQL) stack",
+        "website": "https://www.breachlock.com",
+        "company": "BREACHLOCK",
+        "pinned": true,
+        "location": "Noida",
+        "position": "Full Stack Engineer",
+        "startDate": "2020-05-18",
+        "highlights": [
+          "React, Material-UI",
+          "Node.js",
+          "Building efficient and secure APIs in Node"
+        ]
+      },
+      {
+        "summary": "Worked on React based front-end of an internal toolbox",
+        "website": "https://cvent.com",
+        "company": "CVENT",
+        "pinned": true,
+        "location": "Gurgaon",
+        "position": "Application Engineer",
+        "startDate": "2019-05-04",
+        "endDate": "2020-05-14",
+        "highlights": [
+          "React, Styled Components",
+          "Node.js",
+          "Building Efficient reporting framework",
+          "Optimizing markets with tens of millions of rows using SQL "
+        ]
+      },
+      {
+        "highlights": [
+          "Worked with Postgres, SQL Server, MySQL, Elastic Search for storage.",
+          "Got knowledge of version control system",
+          "Wrote several custom browser for application performace management."
+        ],
+        "summary": "Learning fundamentals of development",
+        "website": "https://cvent.com",
+        "pinned": true,
+        "company": "Cvent",
+        "position": "Intern-Application Engineer",
+        "startDate": "2019-02-24",
+        "endDate": "2019-05-03"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Writing Blogs"
+      },
+      {
+        "name": "Reading Physics Articles"
+      },
+      {
+        "name": "Cooking"
+      },
+      {
+        "name": "Solving Problem on CodeChef and Leetcode"
+      }
+    ]
+  }
