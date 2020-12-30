@@ -30,7 +30,6 @@ export default function ImgMediaCard(props) {
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
-          height="auto"
           image={props.data.image}
         />
         <CardContent>
