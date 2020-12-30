@@ -12,7 +12,7 @@ export default function Post(props) {
             <div className="title">{data.title}</div>
             <div className="subtitle">{data.date}</div>
             <div className="image-container">
-                <img src={data.image} className="image"/>
+                <img src={data.image} alt="Sample Image" className="image"/>
             </div>
             <div class="blog-body">
                 <p className="text-1">

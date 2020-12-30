@@ -14,7 +14,7 @@ export default function Post() {
             <div className="title">{data.title}</div>
             <div className="subtitle">{data.date}</div>
             <div className="image-container">
-                <img src={data.image} className="image"/>
+                <img src={data.image} alt="Sample Image" className="image"/>
             </div>
             <div className="button-link-wrap">
                 <button className="button-link" onClick={()=>window.open('https://suspicious-carson-2627ba.netlify.app/', '_blank')}>Visit App</button>

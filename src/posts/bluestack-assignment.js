@@ -12,7 +12,7 @@ export default function Post(props) {
             <div className="title">{data.title}</div>
             <div className="subtitle">{data.date}</div>
             <div className="image-container">
-                <img src={data.image} className="image"/>
+                <img src={data.image} alt="Heading Image" className="image"/>
             </div>
             <div class="blog-body">
                 <p className="text-1">
@@ -23,7 +23,7 @@ export default function Post(props) {
                 </p>
 
                 <div className="para-separator">
-                    <img className="image" src={(process.env.REACT_APP_ENV === "local" ? process.env.REACT_APP_LOCAL_URL : process.env.REACT_APP_PROD_URL ) + "images/bluestack.png"} />
+                    <img className="image" alt="Sample Image" src={(process.env.REACT_APP_ENV === "local" ? process.env.REACT_APP_LOCAL_URL : process.env.REACT_APP_PROD_URL ) + "images/bluestack.png"} />
                 </div>
 
                 <div className="list-container">
