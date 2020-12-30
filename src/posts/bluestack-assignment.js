@@ -26,7 +26,7 @@ export default function Post(props) {
                 </p>
 
                 <div className="para-separator">
-                    <img className="image" alt="Sample Image" src={(process.env.REACT_APP_ENV === "local" ? process.env.REACT_APP_LOCAL_URL : process.env.REACT_APP_PROD_URL ) + "images/bluestack.png"} />
+                    <img className="image" alt="Sample Image" src="/images/bluestack.jpg" />
                 </div>
 
                 <div className="list-container">
