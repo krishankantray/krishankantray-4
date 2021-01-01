@@ -10,6 +10,7 @@ import './App.css' ;
 import Blog from './blog/index';
 import FullBlog from './blog/FullBlogs' ;
 import Resume from './resume/index' ;
+import Projects from './projects/index' ;
 
 function App() {
   const siteTheme = useSelector(state => state.switchTheme);
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route exact path='/resume'>
               <Resume />
+            </Route>
+            <Route exact path='/projects'>
+              <Projects />
             </Route>
           </Switch>
           <Navbar/>

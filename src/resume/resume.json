@@ -6,6 +6,7 @@
       "summary": "I’m a self-motivated and hardworking experienced fullstack developer seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.",
       "website": "https://krishankantray.com",
       "email": "krishankant_rai@rediffmail.com",
+      "phone": "+91 9560621994",
       "location": {
         "city": "Gurgaon",
         "countryCode": "IN"
@@ -15,11 +16,6 @@
           "username": "@krishankantray",
           "url": "https://twitter.com/krishankantray",
           "network": "twitter"
-        },
-        {
-          "url": "https://github.com/krishankantray",
-          "username": "/krishankantray",
-          "network": "github"
         }
       ]
     },
@@ -29,8 +25,25 @@
         "startDate": "2015-07-01",
         "area": "Computer Science and Engineering",
         "studyType": "Bachelor of Technology",
-        "institution": "Galgotias University"
-      }
+        "institution": "Galgotias University, Gr. Noida",
+        "score": "8.86 CGPA"
+      },
+      {
+        "endDate": "2014-04-30",
+        "startDate": "2012-07-01",
+        "area": "Science",
+        "studyType": "XII",
+        "institution": "JVM Shayamali, Ranchi",
+        "score" : "90.6 %"
+      },
+      {
+        "endDate": "2012-05-30",
+        "startDate": "2010-03-01",
+        "area": "",
+        "studyType": "X",
+        "institution": "D.A.V. Public School",
+        "score" : "10 CGPA"
+       }
     ],
     "references": [
     ],
@@ -87,39 +100,38 @@
        {
         "summary": "MERN (MySQL) stack",
         "website": "https://www.breachlock.com",
-        "company": "BREACHLOCK",
+        "company": "BreachLock Inc.",
         "pinned": true,
         "location": "Noida",
         "position": "Full Stack Engineer",
         "startDate": "2020-05-18",
-        "highlights": [
-          "React, Material-UI",
-          "Node.js",
-          "Building efficient and secure APIs in Node"
-        ]
+        "highlights": {
+          "languages" : ["HTML", "CSS", "Javascript", "ReactJS", "NodeJS", "Restify", "SQL"],
+          "tools" : [ "Jira", "Postman", "GIT", "..etc"],
+          "projects" : ["Migration from Cake PHP to React and Node JS"]
+        }
       },
       {
         "summary": "Worked on React based front-end of an internal toolbox",
         "website": "https://cvent.com",
-        "company": "CVENT",
+        "company": "Cvent",
         "pinned": true,
         "location": "Gurgaon",
         "position": "Application Engineer",
         "startDate": "2019-05-04",
         "endDate": "2020-05-14",
-        "highlights": [
-          "React, Styled Components",
-          "Node.js",
-          "Building Efficient reporting framework",
-          "Optimizing markets with tens of millions of rows using SQL "
-        ]
+        "highlights": {
+          "languages" : ["Javascript", "ReactJS", "NodeJS", "ExpressJS", "SQL Server", "MySQL", "PostgresSQL"],
+          "tools" : [ "Jira", "Postman", "GIT", "RabbitMQ", "Splunk", "Data Dog", "Kibana" ],
+          "projects" : ["Reporting Framework"]
+        }
       },
       {
-        "highlights": [
-          "Worked with Postgres, SQL Server, MySQL, Elastic Search for storage.",
-          "Got knowledge of version control system",
-          "Wrote several custom browser for application performace management."
-        ],
+        "highlights": {
+          "languages" : ["Javascript", "SQL" ],
+          "tools" : [ "Jira", "Postman", "GIT", "..etc"],
+          "projects" : ["Reporting Framework"]
+        },
         "summary": "Learning fundamentals of development",
         "website": "https://cvent.com",
         "pinned": true,
@@ -127,6 +139,29 @@
         "position": "Intern-Application Engineer",
         "startDate": "2019-02-24",
         "endDate": "2019-05-03"
+      }
+    ],
+    "projects" : [
+      {
+        "title" : "CSV to MySQL bulk import utility",
+        "desc" : "This application is built on Node, Express, React and MySQL. It can import data from csv file to Mysql table",
+        "github" : "https://github.com/krishankantray/csv-to-sql-import-client",
+        "demoLink" : "https://suspicious-carson-2627ba.netlify.app/",
+        "image" : "/images/csv-to-sql.jpg"
+      },
+      {
+        "title" : "Personal portfolio and blogging site",
+        "desc" : "This project is built on React and it uses markdown parser for blogs and other pages are react components.",
+        "github" : "https://github.com/krishankantray/krishankantray-4",
+        "demoLink" : "http://krishankantray.com/",
+        "image" : "/images/personal-website.gif"
+      },
+      {
+        "title" : "Gesture Recognition to use it as a virtual mouse",
+        "desc" : "This projects aims at detecting hand gestures and use it as a virtual mouse. It uses OpenCV library for color segamentation.",
+        "github" : "https://github.com/krishankantray/Mouse-operations-using-gestures",
+        "demoLink" : "",
+        "image" : "/images/gesture.jpg"
       }
     ],
     "interests": [
