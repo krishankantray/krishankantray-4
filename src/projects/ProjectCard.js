@@ -14,11 +14,10 @@ export default function ProjectCards(props) {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
           height="auto"
           width="auto"
+          style={{opacity:"0.8"}}
           image={props.proj.image}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

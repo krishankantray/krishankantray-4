@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme)=>({
   root: {
     marginLeft:'auto',
     marginRight:'auto',
-    marginTop : '40px',
+    marginTop : '35px',
     maxWidth: '55%',
     [theme.breakpoints.down('sm')]: {
       maxWidth: '95%'
@@ -46,8 +46,8 @@ export default function ImgMediaCard(props) {
       </CardActionArea>
       <CardActions>
         <Link to={{pathname: "/read-blog", state:{data: props.data}}} className="link">
-          <Button size="large" color="secondary">
-            Read More ....
+          <Button size="large"  color="secondary">
+            <i class="fas fa-chevron-circle-down"></i> &nbsp; Read More ....
           </Button>
         </Link>
       </CardActions>

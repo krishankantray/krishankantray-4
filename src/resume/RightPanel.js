@@ -5,7 +5,6 @@ import profile from './resume.json';
 import '../styles/resume.css' ;
 
 export default function RightPanel() {
-    console.log(profile);
     return (
         <>
         <div className="resume-body-separator">

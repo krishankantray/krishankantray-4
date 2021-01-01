@@ -7,20 +7,30 @@ import RightPanel from './RightPanel';
 
 export default function Resume(props) {
     return (
-        <div className="resume-container">
-            <Card className="resume-card-left">
-                <CardContent>
-                    <LeftPanel />
-                </CardContent>
-            </Card>
-            <Card className="resume-card-right">
-                <CardContent>
-                <div className="resume-separator-2">
-                    <RightPanel />
-                </div>        
-                </CardContent>
-            </Card>  
-            <Particle />
+        <div className="resume">
+            <div className="pdf-button-container">
+                <button className="pdf-button">
+                    <i class="fas fa-file-pdf fa-2x"></i>
+                    <br/>
+                    <span style={{color: '#CACFD2'}}>Download</span>
+                </button>
+
+            </div>
+            <div className="resume-container">
+                <Card className="resume-card-left">
+                    <CardContent>
+                        <LeftPanel />
+                    </CardContent>
+                </Card>
+                <Card className="resume-card-right">
+                    <CardContent>
+                    <div className="resume-separator-2">
+                        <RightPanel />
+                    </div>        
+                    </CardContent>
+                </Card>  
+            </div>
+            <Particle /> 
         </div>
     )
 }

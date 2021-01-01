@@ -1,0 +1,104 @@
+.contact-container {
+    display: flex;
+}
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    width:75vw ;
+    height: 55vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+.text-field {
+    color: #333;
+    font-size: 1rem;
+    margin: 5% auto;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.text-field:hover {
+    color: #333;
+    font-size: 1rem;
+    margin: 5% auto;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: 0 0 15px rgba(81, 203, 238, 1);
+
+}
+
+.contact-us-image {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    object-fit: cover;
+}
+
+.contact-us-left {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    border: solid  transparent;
+    border-radius: 5% 0% 0% 5%;
+    background-color: #34495E ;
+    opacity: 0.7;
+    margin-right: 1%;
+}
+.contact-us-right {
+    display: flex;
+    margin-left: auto;
+    width: 60%;
+    height: 100%;
+    border-radius: 0% 5% 5% 0%;
+    background-color: #34495E ;
+    opacity: 0.6;
+}
+.send-button {
+    color: #5FCDB8;
+    background-color: transparent;
+    border: solid #5FCDB8;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-radius: 5%;
+    margin-top: 5%;
+    outline: none;
+}
+.send-button:hover {
+    color: #ffffff;
+    background-color: #5FCDB8;
+    border: solid #5FCDB8;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-radius: 5%;
+    margin-top: 5%;
+    outline-color: #A5F9E8;
+}
+.error-message {
+    color: #FF3600;
+    font-weight: bolder;
+}

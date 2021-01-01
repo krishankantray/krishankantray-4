@@ -147,7 +147,7 @@
         "desc" : "This application is built on Node, Express, React and MySQL. It can import data from csv file to Mysql table",
         "github" : "https://github.com/krishankantray/csv-to-sql-import-client",
         "demoLink" : "https://suspicious-carson-2627ba.netlify.app/",
-        "image" : "/images/csv-to-sql.jpg"
+        "image" : "/images/csv_sql.png"
       },
       {
         "title" : "Personal portfolio and blogging site",

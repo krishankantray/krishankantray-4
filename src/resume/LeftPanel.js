@@ -6,7 +6,7 @@ import '../styles/resume.css' ;
 export default function LeftPanel(props) {
     return (
         <>
-            <img alt="Krishankant" src="/images/profile.jpg" className="avatar-img" />
+            <img alt="Krishankant" src="/images/profile-3.png" className="avatar-img" />
             <p className="resume-text-1">{profile.basics.name}</p>
             <p className="resume-text-2">{profile.basics.label}</p>
             <div className="resume-separator">
