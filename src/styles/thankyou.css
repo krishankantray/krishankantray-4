@@ -1,0 +1,61 @@
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15vh;
+}
+.thank-you-image {
+    display: flex;
+    height: 40vh;
+    opacity: 0.9;
+}
+.thankyou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-text{
+  display: flex;
+  font-size: 5rem;
+  background: -webkit-radial-gradient(circle, rgba(255,14,0,1) 0%, rgba(254,151,0,1) 26%, rgba(0,200,255,1) 73%, rgba(0,93,255,1) 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.thank-subtext{
+  display: flex;
+  font-size: 2.5rem;
+  background: -webkit-radial-gradient(circle, rgba(255,14,0,1) 0%, rgba(254,151,0,1) 26%, rgba(0,200,255,1) 73%, rgba(0,93,255,1) 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-button {
+  display: flex;
+  text-decoration: none;
+  margin-top: 15vh;
+  font-size: 3rem;
+  color: #68B2DE;
+}
+@media only screen and (max-width: 1200px) { 
+  .thank-text{
+    font-size: 3rem;
+  }
+  .thank-you-image {
+    display: flex;
+    height: 20vh;
+    opacity: 0.9;
+  }
+  .thank-subtext{
+    display: flex;
+    font-size: 1.2rem;
+    color: #68B2DE;
+  }
+  .home-button {
+    display: flex;
+    margin-top: 100%;
+    font-size: 1.5rem;
+    color: #68B2DE;
+  }
+}
