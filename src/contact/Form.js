@@ -1,6 +1,7 @@
 import React, {useState} from 'react' ;
 import { useHistory } from 'react-router-dom';
 import '../styles/contact.css' ;
+import contactImage from '../images/contact-us.svg' ;
 
 export default function Form(props){
     const [state, setState] = useState({name: "", email: "", message: ""});
@@ -81,7 +82,7 @@ export default function Form(props){
                 </form>
             </div>    
             <div className="contact-us-right">
-                <img src="/images/contact-us.svg" className="contact-us-image"/>
+                <img src={contactImage} className="contact-us-image"/>
             </div>
         </div>
     )
