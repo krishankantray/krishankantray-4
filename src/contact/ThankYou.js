@@ -2,12 +2,13 @@ import React from 'react' ;
 import {Link} from 'react-router-dom' ;
 import Particle from '../Particle' ;
 import '../styles/thankyou.css' ;
+import contactImage from '../images/contact-us.svg' ;
 
 export default function ThankYou(props) {
     return(
         <>
             <div className="thank-you-container">
-                <img src="/images/thank-you.svg" className="thank-you-image" />
+                <img src={contactImage} className="thank-you-image" />
                 <div className="thankyou">
                     <div class="thank-text">
                         Thank You 

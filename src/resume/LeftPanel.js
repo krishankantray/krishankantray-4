@@ -2,11 +2,12 @@ import React from 'react' ;
 import profile from './resume.json';
 import Divider from '@material-ui/core/Divider';
 import '../styles/resume.css' ;
+import myphoto from '../images/profile-3.png'
 
 export default function LeftPanel(props) {
     return (
         <>
-            <img alt="Krishankant" src="/images/profile-3.png" className="avatar-img" />
+            <img alt="Krishankant" src={myphoto} className="avatar-img" />
             <p className="resume-text-1">{profile.basics.name}</p>
             <p className="resume-text-2">{profile.basics.label}</p>
             <div className="resume-separator">
