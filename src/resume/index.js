@@ -4,18 +4,12 @@ import CardContent from '@material-ui/core/CardContent';
 import Particle from '../Particle' ;
 import LeftPanel from './LeftPanel' ;
 import RightPanel from './RightPanel';
+import PrintPdf from './pdf' ;
 
 export default function Resume(props) {
     return (
         <div className="resume">
-            <div className="pdf-button-container">
-                <button className="pdf-button">
-                    <i class="fas fa-file-pdf fa-2x"></i>
-                    <br/>
-                    <span style={{color: '#CACFD2'}}>Download</span>
-                </button>
-
-            </div>
+            <PrintPdf />
             <div className="resume-container">
                 <Card className="resume-card-left">
                     <CardContent>

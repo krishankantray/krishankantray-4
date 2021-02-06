@@ -8,7 +8,7 @@
       "email": "krishankant_rai@rediffmail.com",
       "phone": "+91 9560621994",
       "location": {
-        "city": "Gurgaon",
+        "city": "Noida, U.P.",
         "countryCode": "IN"
       },
       "profiles": [
@@ -106,9 +106,9 @@
         "position": "Full Stack Engineer",
         "startDate": "2020-05-18",
         "highlights": {
-          "languages" : ["HTML", "CSS", "Javascript", "ReactJS", "NodeJS", "Restify", "SQL"],
+          "languages" : ["HTML", "CSS", "Javascript", "ReactJS", "NodeJS", "Restify/Express", "SQL"],
           "tools" : [ "Jira", "Postman", "GIT", "..etc"],
-          "projects" : ["Migration from Cake PHP to React and Node JS"]
+          "projects" : ["Worked end to end on a SaaS based pentest tool and migrated it from PHP to MERN (mysql) stack"]
         }
       },
       {
@@ -123,16 +123,16 @@
         "highlights": {
           "languages" : ["Javascript", "ReactJS", "NodeJS", "ExpressJS", "SQL Server", "MySQL", "PostgresSQL"],
           "tools" : [ "Jira", "Postman", "GIT", "RabbitMQ", "Splunk", "Data Dog", "Kibana" ],
-          "projects" : ["Reporting Framework"]
+          "projects" : ["Worked on internal reporting framework having high performance data delivery and features like csv and complex pdf generation"]
         }
       },
       {
         "highlights": {
           "languages" : ["Javascript", "SQL" ],
           "tools" : [ "Jira", "Postman", "GIT", "..etc"],
-          "projects" : ["Reporting Framework"]
+          "projects" : ["Learning fundamentals of software development(in JS) and system design"]
         },
-        "summary": "Learning fundamentals of development",
+        "summary": "Learning fundamentals of software development(in JS) and system design",
         "website": "https://cvent.com",
         "pinned": true,
         "company": "Cvent",
@@ -151,14 +151,14 @@
       },
       {
         "title" : "Personal portfolio and blogging site",
-        "desc" : "This project is built on React and it uses markdown parser for blogs and other pages are react components.",
+        "desc" : "Its a static blogging site that is built on ReactJS and deployed on netlify",
         "github" : "https://github.com/krishankantray/krishankantray-4",
         "demoLink" : "http://krishankantray.com/",
         "image" : "/images/personal-website.gif"
       },
       {
         "title" : "Gesture Recognition to use it as a virtual mouse",
-        "desc" : "This projects aims at detecting hand gestures and use it as a virtual mouse. It uses OpenCV library for color segamentation.",
+        "desc" : "Its my engineering final year project. This projects aims at detecting hand gestures and use it as a virtual mouse. It uses OpenCV library for color segamentation.",
         "github" : "https://github.com/krishankantray/Mouse-operations-using-gestures",
         "demoLink" : "",
         "image" : "/images/gesture.jpg"

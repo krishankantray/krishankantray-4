@@ -9,18 +9,18 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 1% 5% 5% 10%;
 }
 .resume-card-left {
-    min-width: 27vw;
-    max-width: 27vw;
+    min-width: 23vw;
+    max-width: 20vw;
     min-height: 90vh;
     margin-right: 15px;
     opacity: 0.85;
 }
 .resume-card-right {
-    min-width: 68vw;
-    max-width: 68vw;
+    min-width: 60vw;
+    max-width: 60vw;
     min-height: 90vh;
     opacity: 0.8;
 }
@@ -181,6 +181,7 @@
 .pdf-button-container {
     display: flex;
     margin-left: auto;
+    z-index: 3;
 }
 .pdf-button {
     color: #E74C3C;
@@ -191,6 +192,8 @@
     vertical-align: middle;
     opacity: 0.8;
     outline: none;
+    cursor: pointer;
+
 }
 .progress-bar-custom-50 {
 	margin-left: auto;
