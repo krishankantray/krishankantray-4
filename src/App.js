@@ -22,7 +22,8 @@ function App() {
   },[siteTheme])
   
   return (
-    <Router>
+    <h1>redirecting....</h1>
+    {/*<Router>
       <div style={{display:'flex'}}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
@@ -49,7 +50,7 @@ function App() {
           <Navbar/>
         </ThemeProvider>
       </div>
-    </Router>
+    </Router>*/}
   );
 }
 
