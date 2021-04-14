@@ -22,9 +22,8 @@ function App() {
   },[siteTheme])
   
   return (
-    <h1></h1>
-    {/*<Router>
-      <div style={{display:'flex'}}>
+    <Router>
+      {/*<div style={{display:'flex'}}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Switch>
@@ -49,8 +48,8 @@ function App() {
           </Switch>
           <Navbar/>
         </ThemeProvider>
-      </div>
-    </Router>*/}
+      </div>*/}
+    </Router>
   );
 }
 
