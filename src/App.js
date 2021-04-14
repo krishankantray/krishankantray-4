@@ -22,7 +22,7 @@ function App() {
   },[siteTheme])
   
   return (
-    <h1>redirecting....</h1>
+    <h1></h1>
     {/*<Router>
       <div style={{display:'flex'}}>
         <ThemeProvider theme={theme}>
