@@ -116,7 +116,7 @@ export const docDefinition = {
                                          body: [
                                              [{text: 'Language  ', bold: true}, d.highlights.languages.join(", ")],
                                              [{text: 'Tools used  ', bold: true}, d.highlights.tools.join(", ") ],
-                                             [{text: 'Project  ', bold: true}, d.highlights.projects[0] ]
+                                             [{text: 'Project  ', bold: true}, {ul:d.highlights.projects} ]
                                          ]
                                          
                                      }
