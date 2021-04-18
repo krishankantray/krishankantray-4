@@ -27,7 +27,7 @@ export default function RightPanel() {
                         <td><span className="experience-glow-text">Tools used : </span> {d.highlights.tools.map(d=>d+", ")}</td>
                     </tr>
                     <tr>
-                        <td><span className="experience-glow-text">Project : </span>{d.highlights.projects.map(d=>d)}</td>
+                        <td><span className="experience-glow-text">Project : </span><br/><ul>{d.highlights.projects.map(d=><li>d<li>)}</ul></td>
                     </tr>
                 </table>
             </div>
