@@ -108,7 +108,7 @@
         "highlights": {
           "languages" : ["HTML", "CSS", "Javascript", "ReactJS", "NodeJS", "Restify/Express", "SQL"],
           "tools" : [ "Jira", "Postman", "GIT", "..etc"],
-          "projects" : ["Worked end to end on a SaaS based pentest tool and migrated it from PHP to MERN (mysql) stack"]
+          "projects" : ["Worked end to end on a SaaS based pentest tool"]
         }
       },
       {
