@@ -123,14 +123,14 @@
         "highlights": {
           "languages" : ["Javascript", "ReactJS", "NodeJS", "ExpressJS", "SQL Server", "MySQL", "PostgresSQL"],
           "tools" : [ "Jira", "Postman", "GIT"],
-          "projects" : ["Worked on internal reporting framework having high performance data delivery and features like csv and complex pdf generation"]
+          "projects" : ["worked on internal tool based on ReactJS and NodeJS", "Optimised sql query for generating report", "worked on basic scripts in nodejs for automated data fixes"]
         }
       },
       {
         "highlights": {
           "languages" : ["Javascript", "SQL" ],
           "tools" : [ "Jira", "Postman", "GIT", "..etc"],
-          "projects" : ["Learning fundamentals of software development(in JS) and system design"]
+          "projects" : ["Learning fundamentals of software development(in JS)", "Documentation of system workflows", "Fundamental concepts of Rest Apis and async operations"]
         },
         "summary": "Learning fundamentals of software development(in JS) and system design",
         "website": "https://cvent.com",
