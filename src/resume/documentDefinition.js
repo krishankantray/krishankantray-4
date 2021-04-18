@@ -158,7 +158,7 @@ export const docDefinition = {
                                     {text:d.area},
                                     {text:d.institution, margin:[0,0,0,3], italics: true},
                                     {text:d.score, color:'#2e86c1', bold:true},
-                                    i===profile.education.length-1 ? {} :{
+                                    i===profile.education.slice(0,1).length-1 ? {} :{
                                         canvas:[{
                                         type: 'line',
                                         x1: 0, y1: 5,
