@@ -108,7 +108,7 @@
         "highlights": {
           "languages" : ["HTML", "CSS", "Javascript", "ReactJS", "NodeJS", "Restify/Express", "SQL"],
           "tools" : [ "Jira", "Postman", "GIT", "..etc"],
-          "projects" : ["Worked end to end on a SaaS based pentest tool"]
+          "projects" : ["Build APIs and frontend for Admin Dashboard", "Used charts and graphs for data representation", "built PDF and CSV report generation feature", "build CronJobs for scheduled functionalities", "S3 bucket integration for file upload and download"]
         }
       },
       {
