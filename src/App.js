@@ -23,7 +23,7 @@ function App() {
   
   return (
     <Router>
-      <div style={{display:'flex'}}>
+    {/*<div style={{display:'flex'}}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Switch>
@@ -48,7 +48,7 @@ function App() {
           </Switch>
           <Navbar/>
         </ThemeProvider>
-      </div>
+      </div>*/}
     </Router>
   );
 }
