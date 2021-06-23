@@ -16,7 +16,7 @@ export default function LeftPanel(props) {
                 <p className="resume-text-3"><i className="fas fa-envelope" style={{color: '#F1C40F'}}></i> &nbsp;  {profile.basics.email}</p> <br/>
                 <p className="resume-text-3"><i class="fab fa-linkedin" style={{color: '#1DAFEF'}}></i> &nbsp; <a className="resume-link" href="https://www.linkedin.com/in/krishankantray" target="_blank">https://www.linkedin.com/in/krishankantray</a></p> <br/>
                 <p className="resume-text-3"><i class="fab fa-github" style={{color: '#D7DBDD'}}></i> &nbsp; <a className="resume-link" href="https://github.com/krishankantray" target="_blank">https://github.com/krishankantray</a></p> <br/>
-                <p className="resume-text-3"><i class="fas fa-globe" style={{color: '#0000FF'}}></i> &nbsp; <a className="resume-link" href="https://krishankantray.com" target="_blank">https://krishankantray.com</a></p> <br/>
+                <p className="resume-text-3"><i class="fas fa-globe" style={{color: '#0000FF'}}></i> &nbsp; <a className="resume-link" href="https://bit.ly/kk-web" target="_blank">bit.ly/kk-web</a></p> <br/>
             </div>
             <Divider />
             <div className="resume-separator">
