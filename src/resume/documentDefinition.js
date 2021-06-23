@@ -27,7 +27,7 @@ export const docDefinition = {
                                               {text:profile.basics.email, margin:[0,0,0,5]},
                                               {text:"www.linkedin.com/in/krishankantray", link:'https://www.linkedin.com/in/krishankantray', margin:[0,0,0,5]},
                                               {text:"https://github.com/krishankantray", link:'https://github.com/krishankantray', margin:[0,0,0,5]},
-                                              {text:"https://krishankantray.com", link:'https://krishankantray.com', margin:[0,0,0,5]},
+                                              {text:"bit.ly/kk-web", link:'https://bit.ly/kk-web', margin:[0,0,0,5]},
                                           ],
                                      margin:[5,30,0,0]
                                       
